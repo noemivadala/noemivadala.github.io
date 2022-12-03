@@ -1,0 +1,172 @@
+.mobile {
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    //Element
+    .content-scroll {
+        justify-items: center;
+    }
+
+    //Header
+    .header {
+        .header-content {
+            display: grid; 
+            grid-template-columns: 1fr 65px; 
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+                "logo logo"
+                ". ."; 
+            }
+            .logo { grid-area: logo; }
+            .menu-link {justify-self: end;}
+    }
+
+    .header .header-content #btn-dark {
+        width: 35px;
+    }
+
+    .header .header-content #btn-dark .text-dark {  
+        display: none;
+    }
+
+    //Slide
+    .container-slide {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .animation-slide lottie-player {
+            width: 400px; 
+            height: 400px;
+        }
+
+        .text-slide {
+            font-size: 16px;
+            padding: 20px 50px;
+        }
+    }
+
+    //Skills
+    .container-skills {
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 1fr;
+
+        .img-skills img {
+            max-width: 100%;
+        }
+    
+        .content-skills {
+            grid-template-columns: repeat(2, 160px);
+            grid-template-rows: repeat(3, 180px);
+            margin: 0 auto;
+        }
+    }
+
+    //Projects
+    .content-projects {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 400px;
+    
+        .items-projects {
+            grid-template-columns: 1fr;
+        }
+
+        .img-project img {
+            max-width: 100%;
+        }
+    }
+
+    //Contact
+    .contact {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .container-profile {
+            min-width: 300px;
+        }
+
+        .form-labels {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            margin-bottom: 40px;
+
+            .input-flex {
+                display: block;
+            }
+
+            input[type="tel"] {
+                width: 300px;
+            }
+
+            textarea {
+                width: 300px;
+            }
+        }
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+    section {
+        min-height: 700px;
+    }
+
+    //Slide
+    .container-slide {
+        grid-template-rows: 600px 50px;
+        padding-bottom: 0px;
+
+        .animation-slide lottie-player {
+            width: 500px; 
+            height: 500px;
+        }
+    }
+
+    //Skills
+    .container-skills {
+        grid-template-columns: 1fr 1fr;
+
+        .img-skills img {
+            width: 500px;
+        }
+    }
+
+    //Projects
+    .content-projects {
+        grid-template-columns: 1fr;
+
+        .img-project img {
+            display: none;
+        }
+    }
+
+    //Contact
+    .contact {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .container-profile {
+            min-width: 300px;
+            margin-bottom: 50px;
+        }
+
+        .form-labels {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            margin-bottom: 40px;
+        }
+    }
+}

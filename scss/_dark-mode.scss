@@ -1,0 +1,121 @@
+@import "config";
+
+/*
+
+1 - Element page
+2 - Header
+3 - Slide
+4 - Skills
+5 - Project
+6 - Contact
+7 - Footer
+
+*/
+
+.dark {
+    background-color: $dark;
+    transition: .3s all ease-in-out;
+
+    //1 - Element page
+    h1, h2, h4, p {
+        color: #fff;
+        transition: .3s all ease-in-out;
+    }
+
+    .text-span {
+        color: #ac79ef;
+    }
+
+    .badges {
+        background: #272751;
+        color: #747cca;
+    }
+
+    //2 - Header
+    .header-menu {
+        background-color: #fff;
+        a, h1 {
+            color: #121212;
+            transition: .3s all ease-in-out;
+        }
+    }
+
+    //3 - Slide
+    .container-slide {
+        .description-slide {
+            color: #fff;
+        }
+        .content-scroll {
+            .fa-chevron-down {
+                color: #ac79ef;
+            }
+        }
+    }
+
+    //4 - Skills
+    .container-skills {
+        .animation-line {
+            .bg-line {
+                stroke: #747cca;
+            }
+        }
+    }
+
+    //5 - Project
+    .content-projects {
+        .items-projects {
+            .project {
+                .icon-project i {
+                    color: #747cca;
+                }
+
+                .title-project, .description-project {
+                    color: #272751;
+                }
+
+                &::after {
+                    background-color: #f4f7fa;
+                }
+            }
+        }
+    }
+
+    //6 - Contact
+    .contact {
+        .container-profile {
+            .content-profile {
+                .img-profile {
+                    border: 5px solid #ac79ef;
+                }
+                a, .icon-maps {
+                    color: #ac79ef;
+                }
+            }
+        }
+        .form-labels {
+            input {
+                &:focus {
+                    outline: 3px solid #747cca;
+                }
+            }
+            textarea {
+                &:focus {
+                    outline: 3px solid #747cca;
+                }
+            }
+            .container-submit button[type="submit"] {
+                background-color: #272751;
+                color: #747cca;
+            }
+        }
+    }
+
+    .container-social p {
+        color: #121212;
+    }
+
+    //7 - Footer
+    #copyright {
+        background-color: #222;
+    }
+}

@@ -1,0 +1,164 @@
+.mobile {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .content-scroll {
+    justify-items: center;
+  }
+  .header .header-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 65px;
+        grid-template-columns: 1fr 65px;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "logo logo" ". .";
+  }
+  .header .logo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: logo;
+  }
+  .header .menu-link {
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+  .header .header-content #btn-dark {
+    width: 35px;
+  }
+  .header .header-content #btn-dark .text-dark {
+    display: none;
+  }
+  .container-slide {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+  .container-slide .animation-slide lottie-player {
+    width: 400px;
+    height: 400px;
+  }
+  .container-slide .text-slide {
+    font-size: 16px;
+    padding: 20px 50px;
+  }
+  .container-skills {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 400px 1fr;
+        grid-template-rows: 400px 1fr;
+  }
+  .container-skills .img-skills img {
+    max-width: 100%;
+  }
+  .container-skills .content-skills {
+    -ms-grid-columns: (160px)[2];
+        grid-template-columns: repeat(2, 160px);
+    -ms-grid-rows: (180px)[3];
+        grid-template-rows: repeat(3, 180px);
+    margin: 0 auto;
+  }
+  .content-projects {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 400px;
+        grid-template-rows: 1fr 400px;
+  }
+  .content-projects .items-projects {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .content-projects .img-project img {
+    max-width: 100%;
+  }
+  .contact {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+  .contact .container-profile {
+    min-width: 300px;
+  }
+  .contact .form-labels {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    margin-bottom: 40px;
+  }
+  .contact .form-labels .input-flex {
+    display: block;
+  }
+  .contact .form-labels input[type="tel"] {
+    width: 300px;
+  }
+  .contact .form-labels textarea {
+    width: 300px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  section {
+    min-height: 700px;
+  }
+  .container-slide {
+    -ms-grid-rows: 600px 50px;
+        grid-template-rows: 600px 50px;
+    padding-bottom: 0px;
+  }
+  .container-slide .animation-slide lottie-player {
+    width: 500px;
+    height: 500px;
+  }
+  .container-skills {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .container-skills .img-skills img {
+    width: 500px;
+  }
+  .content-projects {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .content-projects .img-project img {
+    display: none;
+  }
+  .contact {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+  .contact .container-profile {
+    min-width: 300px;
+    margin-bottom: 50px;
+  }
+  .contact .form-labels {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    margin-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
