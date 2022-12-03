@@ -374,24 +374,24 @@ section {
 }
 .content-projects .items-projects .bg-project-1 {
   background-color: #f7f7f7;
-  background-image: url(../images/projects/background-project-1.png);
+  background-image: url(./images/projects/background-project-1.png);
   background-repeat: no-repeat;
 }
 .content-projects .items-projects .bg-project-2 {
   background-color: #f7f7f7;
-  background-image: url(../images/projects/background-project-2.png);
+  background-image: url(./images/projects/background-project-2.png);
   background-position: top;
   background-repeat: no-repeat;
 }
 .content-projects .items-projects .bg-project-3 {
   background-color: #f7f7f7;
-  background-image: url(../images/projects/background-project-3.png);
+  background-image: url(./images/projects/background-project-3.png);
   background-position: right;
   background-repeat: no-repeat;
 }
 .content-projects .items-projects .bg-project-4 {
   background-color: #f7f7f7;
-  background-image: url(../images/projects/background-project-4.png);
+  background-image: url(./images/projects/background-project-4.png);
   background-position: inherit;
   background-repeat: no-repeat;
 }
