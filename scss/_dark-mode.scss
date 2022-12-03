@@ -1,5 +1,3 @@
-@import "config";
-
 /*
 
 1 - Element page
@@ -13,7 +11,7 @@
 */
 
 .dark {
-    background-color: $dark;
+    background-color: #212121;
     transition: .3s all ease-in-out;
 
     //1 - Element page
