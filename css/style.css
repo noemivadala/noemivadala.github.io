@@ -10,7 +10,7 @@
 
 */
 .dark {
-  background-color: #212121;
+  background-color: #1c1c1c;
   transition: 0.3s all ease-in-out;
 }
 .dark h1, .dark h2, .dark h4, .dark p {
