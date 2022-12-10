@@ -511,6 +511,9 @@ section {
   cursor: pointer;
 }
 
+.section-thanks {
+  text-align: center;
+}
 .section-thanks h1 {
   font-weight: 400;
 }
