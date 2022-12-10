@@ -7,6 +7,7 @@
     <!-- Favicon --> 
     <link rel="icon" type="image/x-icon" href="images/favicon-noemi-vadala.png">
     <!-- Open Graph -->
+    <meta name="description" content="Benvenuti nel mio portfolio personale, qui troverete le mie skills e i miei progetti">
     <meta property="og:title" content="Noemi Vadalà | Front-End Developer">
     <meta property="og:image" content="images/immagine-di-condivisione.png">
     <meta property="og:description" content="Benvenuti nel mio portfolio personale, qui troverete le mie skills e i miei progetti">
@@ -15,9 +16,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Font --> 
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;400;500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://kit.fontawesome.com/ca8b9d1673.js" crossorigin="anonymous"></script>
+    <script defer src="https://kit.fontawesome.com/ca8b9d1673.js" crossorigin="anonymous"></script>
 </head> 
 <body id="mode">
     <nav class="header">
@@ -44,7 +45,7 @@
 
     <section id="home" class="container-slide">
         <div class="animation-slide">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <script async src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_wqd1jwoz.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
         </div>
         <div class="text-slide">
@@ -56,7 +57,7 @@
             </div>
         </div>
         <div class='content-scroll'>
-            <a href="#skills"><i class="fa-solid fa-chevron-down fa-xl"></i></a>
+            <a href="#skills" title="Scorri nella pagina"><i class="fa-solid fa-chevron-down fa-xl"></i></a>
         </div>
     </section>
 
@@ -66,7 +67,7 @@
         </div>
         <div class="container-skills">
             <div class="img-skills">
-                <img src="images/skills/section-skills.png" alt="">
+                <img loading="lazy" src="images/skills/section-skills.webp" alt="Sezione skills apprese">
             </div>
             <div class="animation-line desktop">
                 <svg class="bg-line" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 654" width="700" height="654">
@@ -75,12 +76,12 @@
             </div>
 
             <div class="content-skills">
-                <div class="skill"><img src="images/skills/icon-html-skill.png" alt=""></div>
-                <div class="skill"><img src="images/skills/icon-css-skill.png" alt=""></div>
-                <div class="skill"><img src="images/skills/icon-sass-skill.png" alt=""></div>
-                <div class="skill"><img src="images/skills/icon-boostrap-skill.png" alt=""></div>
-                <div class="skill"><img src="images/skills/icon-jquery-skill.png" alt=""></div>
-                <div class="skill"><img src="images/skills/icon-git-skill.png" alt=""></div>
+                <div class="skill"><img loading="lazy" src="images/skills/icon-html-skill.png" alt="skill Icona linguaggio html"></div>
+                <div class="skill"><img loading="lazy" src="images/skills/icon-css-skill.png" alt="skill icona linguaggio css"></div>
+                <div class="skill"><img loading="lazy" src="images/skills/icon-sass-skill.png" alt="skill icona sass"></div>
+                <div class="skill"><img loading="lazy" src="images/skills/icon-boostrap-skill.png" alt="skill icona bootstrap"></div>
+                <div class="skill"><img loading="lazy" src="images/skills/icon-jquery-skill.png" alt="skill icona jquery"></div>
+                <div class="skill"><img loading="lazy" src="images/skills/icon-git-skill.png" alt="skill icona git"></div>
             </div>
         </div>
         
@@ -119,7 +120,7 @@
                 </div>
             </div>
             <div class="img-project">
-                <img src="images/projects/progetti-coming-soon.png" alt="">
+                <img loading="lazy" src="images/projects/progetti-coming-soon.webp" alt="Progetti Siti web">
             </div>
         </div>
     </section>
@@ -127,17 +128,17 @@
     <section id="contact" class="contact">
         <div class="container-profile">
             <div class="content-profile">
-                <img class="img-profile" src="images/profile.png">
+                <img loading="lazy" class="img-profile" src="images/profile.webp" alt="icona profilo noemi vadalà">
                 <h2>Noemi Vadalà</h2>
                 <p>Front-end Developer</p>
-                <p><a href="mailto:noemi.vadala.nv@gmail.com" target="_blank">noemi.vadala.nv@gmail.com</a></p>
+                <p><a href="mailto:info.noemivadala@gmail.com" target="_blank">noemi.vadala.nv@gmail.com</a></p>
                 <p><i class="fa-solid fa-location-dot icon-maps"></i> Messina</p>
             </div>
 
             <div class="container-social">
                 <p>Social</p>
                 <div class="content-social">
-                    <a href="https://github.com/noemivadala" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+                    <a href="https://github.com/noemivadala" target="_blank" title="Icona Github"><i class="fa-brands fa-github fa-xl"></i></a>
                 </div>
             </div>
         </div>
@@ -174,8 +175,8 @@
     </div>
 
 
-    <script src="js/app.js"></script>
-    <script
+    <script defer src="js/app.js"></script>
+    <script defer
 		src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
 		integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
 		crossorigin="anonymous"></script>
