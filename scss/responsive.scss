@@ -48,6 +48,10 @@
         .animation-slide lottie-player {
             width: 100%;
             height: 400px;
+
+            .img-slide {
+                max-width: 410px !important;
+            }
         }
 
         .text-slide {
