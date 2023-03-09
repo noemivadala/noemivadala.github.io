@@ -45,12 +45,12 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
 
-        .animation-slide lottie-player {
+        .animation-slide {
             width: 100%;
             height: 400px;
 
             .img-slide {
-                max-width: 410px !important;
+                max-width: 410px;
             }
         }
 

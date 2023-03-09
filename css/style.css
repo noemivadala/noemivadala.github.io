@@ -231,7 +231,7 @@ section {
   align-items: center;
   padding-bottom: 100px;
 }
-.container-slide .animation-slide lottie-player {
+.container-slide .animation-slide {
   width: 650px;
   height: 650px;
 }
