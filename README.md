@@ -11,3 +11,6 @@ Attraverso questa piattaforma, potrete scoprire le mie competenze, esplorare i p
 
 
 Link: https://noemivadala.github.io/
+
+
+![portfolio-noemi-vadala](https://github.com/noemivadala/noemivadala.github.io/assets/18146517/089d9bad-3289-4500-979b-cf1ca09aaebb)
